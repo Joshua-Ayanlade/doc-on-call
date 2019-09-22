@@ -1,0 +1,244 @@
+body{
+    margin:0;
+    background:#FFFFFF;
+    height: 771px;
+    padding: 0px;
+    font-family: arial;
+    width: 1366px;
+    height: 1183px;
+}
+
+
+/* start of nav styles */
+
+/* nav styles */
+.nav{
+    height: 88px;
+    width: 1366px;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 0px;
+    margin: 0px;
+}
+    
+
+
+#nav ul li{
+    padding-left: 2em;
+    padding-right: 2em;
+
+
+}
+
+#nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#nav ul li{
+    display: inline;
+    list-style-type: none;
+    top: 33px;
+    left: 638px;
+
+    text-align: left;
+    font:  14px Arial;
+    letter-spacing: 0;
+    /* color: #229DE8; */
+    opacity: 1;
+
+            
+}
+#nav ul{
+    /* display: inline; */
+    padding-top: 31px;
+
+}
+
+#call{
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    left: 120px;
+    top: 24px;
+}
+
+
+#nav ul li.call{
+    padding-left: 160px;
+    padding-right:22em;
+    font-size: 18px;
+    font-weight: bold; 
+    color: #229DE8;
+     
+}
+
+/* link styles */
+
+a{
+    color: #229DE8;
+}
+
+
+a:link{
+    text-decoration: none;
+    color: #229DE8;
+}
+
+a:hover{
+    color: #B60B05;
+}
+
+
+ul li span#cal{
+    color:#B60B05;
+}
+
+/* new */
+ul li#notify{
+    color: #868686;
+    margin-left: 25em;
+}
+
+p#bd{
+    font-size: 18px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius:80px;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute;
+    left: 66em;
+    top: 15px;
+    color: #229DE8;
+}
+
+/* end of nav styles */
+
+h3{
+    position: absolute;
+    top: 128px;
+    left: 150px;
+    font-weight: normal;
+}
+
+div p#bd1{
+    font-size: 18px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius:80px;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    padding-top: 12px;
+    position: absolute; 
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: #229DE8;
+    
+}
+
+#profile{
+    position: absolute;
+    top: 52px;
+    left: 103px; 
+    color: #229DE8;
+    font-size: 14px;
+}
+
+div.profile{
+    position: absolute;
+    left: 150px;
+    top: 209px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: white;
+    height: 99px;
+    width: 1118px;
+
+}
+
+div.setting{
+    position: absolute;
+    top: 333px;
+    left: 150px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: white;
+    height: 182px;
+    width: 1118px;
+}
+
+#gear{
+    position: absolute;
+    top: 34px;
+    left: 32px;
+}
+
+#logout{
+    position: absolute;
+    top: 110px;
+    left: 38px;
+}
+
+#set{
+    position: absolute;
+    left: 73px;
+    top: 40px;
+    color: #868686;
+}
+
+#log{
+    position: absolute;
+    left: 78px;
+    top: 115px;
+    color: #868686;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start of footer */
+footer{
+    
+    position:absolute;
+    top:881px;
+    background-color:#229DE8;
+    width:1266px;
+    height: 90px;
+    margin: 0 50px 0 50px;
+    border-radius:48px 48px 0 0;
+}
+
+footer ul{
+    padding-top: 7px;
+}
+
+footer ul li{
+    
+    display: inline;
+    font-family: arial;
+    color: white;
+}
+
+.two{
+    padding:0 30px 0 30px;
+}
+
+.lone{
+    padding-right:280px;
+}
+
+.bird{
+    padding-right:450px;
+}
+
+/* end of footer */
